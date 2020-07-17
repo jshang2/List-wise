@@ -1,4 +1,4 @@
-function loglike=loglike_help(intercept,K0,w,x,y,t,geoid,race,theta,Nrank,unique_geoids,chi,limi,endt)
+function loglike=mloglike_help(intercept,K0,w,x,y,t,geoid,race,theta,Nrank,unique_geoids,chi,limi,endt)
 
 [fair, races, pai,concord,tot_cost,mu,lam,loglike,patrol,unique_x,unique_y,unique_race]=...
          calc_pai_hawkes_race(intercept,K0,w,x,y,t,geoid,race,theta,Nrank,unique_geoids,limi,endt);
